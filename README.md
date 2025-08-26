@@ -238,11 +238,13 @@ http://localhost:5173
 </div>
 
 ### ✅ **Current Test Coverage**
-- Component rendering tests
-- User interaction flows  
-- Cart & Wishlist functionality
-- Form validation testing
-- Route navigation tests
+
+- Cart totals interaction: Adjusting item quantity updates the Order Summary subtotal via Redux state changes.
+
+- Checkout navigation: Proceed button leads to /checkout/address when available.
+
+- Policy strip smoke test: Component renders expected copy without crashing.
+
 
 ---
 
@@ -274,11 +276,9 @@ npm run build    # Creates dist/ folder
 | ✅ | **Responsive UI** | Mobile-first design |
 | ✅ | **Theme Toggle** | Dark/light mode |
 | ✅ | **Testing Setup** | Unit tests framework |
-| 🔄 | **Order History** | User purchase tracking |
 | 📋 | **Payment Gateway** | Secure payment processing |
 | 📋 | **Product Reviews** | User ratings & feedback |
-| 📋 | **Admin Panel** | Product management |
-| 📋 | **Email Notifications** | Order confirmations |
+
 
 </div>
 
