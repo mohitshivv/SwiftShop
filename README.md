@@ -117,7 +117,7 @@ SwiftShop is a comprehensive e-commerce platform built as a **Full Stack Web Dev
 
 <div align="center">
 
-### 🌐 **[Visit SwiftShop Live](https://your-deployment-url.vercel.app)**
+### 🌐 **[Visit SwiftShop Live](https://swift-shop-green.vercel.app/)**
 
 </div>
 
@@ -254,11 +254,6 @@ npm run build
 vercel --prod
 ```
 
-### **Netlify**
-```bash
-# Build command: npm run build
-# Publish directory: dist
-```
 
 ### **Manual Deployment**
 ```bash
